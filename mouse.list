@@ -1,1 +1,1 @@
-deb [trusted=true] https://sixmice.github.io/ppa ./
+deb [trusted=true] https://sixmice.github.io/ppa/23.09 ./
