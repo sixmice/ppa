@@ -1,12 +1,12 @@
 Package: mousesettings
-Version: 0.99.04
+Version: 0.99.05
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Filename: ./mousesettings_0.99.04_all.deb
-Size: 960
-MD5sum: 17ddcb9829f534c7b498e32d04c5ea20
-SHA1: 41847aeaa763c99723f99bde3a9f317751f65c36
-SHA256: 14a3b8be507594d7d78a0a8c79a4aa3c4fd3cd55c4d1637e89f3f48c0b3c2544
+Filename: ./mousesettings_0.99.05_all.deb
+Size: 964
+MD5sum: aa7245c8c97157098eb46db1a08302f1
+SHA1: 096a21cb25eebafde1710d3643183fc724c615de
+SHA256: 6994081e8228aeb1d864ec603604c23df85429a5b941b9217a59ac02b8f20e07
 Priority: optional
 Description: Settings for Mouse Linux.
 
