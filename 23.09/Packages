@@ -1,13 +1,41 @@
-Package: mousesettings
-Version: 0.99.08
+Package: mouse-mate
+Version: 0.99.09
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Depends: lsb-release, synaptic
-Filename: ./mousesettings_0.99.08_all.deb
-Size: 980
-MD5sum: 08552af751d2610986631ee6e5bfa693
-SHA1: db3a59160f3ba121d3e3f9d7ee77636ef6e5b8dd
-SHA256: baa1e80055978c9c84cf40cbd2329241ed7ae89319eebfe3f608c06989d38c75
+Depends: lsb-release, synaptic, sudo
+Conflicts: mouse-xfce, xfce4-session
+Filename: ./mouse-mate_1.00.09_all.deb
+Size: 1388
+MD5sum: ffd6b4273813e74bf47817e0d62b3813
+SHA1: 3dc9f5405e0b27fdde7f5765b68cb8dc80191378
+SHA256: a9b85ba1d876eb30d1a4f3e6004013191fe4cd0a51a68d4c781ec2d09e6e8311
+Priority: important
+Description: Settings for Mouse Linux with MATE desktop environment.
+
+Package: mouse-xfce
+Version: 0.99.09
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Depends: lsb-release, synaptic, sudo
+Conflicts: mouse-mate, mate-desktop, mate-desktop-common
+Filename: ./mouse-xfce_1.00.09_all.deb
+Size: 1348
+MD5sum: 5c65d6b2b48aadee68185412f12affb1
+SHA1: 54102d77239cc14765e1fc56dd2626d6c86ddac8
+SHA256: 62ba0d164eab48f59dc21d1000fd904072216140f077e1a3906c4e2cedcbd6e1
+Priority: important
+Description: Settings for Mouse Linux with Xfce desktop environment.
+
+Package: mousesettings
+Version: 1.00.09
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Depends: lsb-release, synaptic, sudo
+Filename: ./mousesettings_1.00.09_all.deb
+Size: 1052
+MD5sum: 7325ad8c49104a369b0e3d5d4c6264bb
+SHA1: fe99e2cfc93fb51bd63fa3a2c2d1b21b5c36b9bd
+SHA256: bfcbf84c5672d438779c208714cbcf615ad54f533855dfc6723e567c4185c7a8
 Priority: important
 Description: Settings for Mouse Linux.
 
