@@ -1,0 +1,77 @@
+Package: sixmice-calamares-settings
+Version: 1.01.23
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend
+Provides: calamares-settings
+Filename: ./sixmice-calamares-settings-1.01.23_all.deb
+Size: 88416
+MD5sum: 465d52b2e04bb6e4c613eca29f9ac491
+SHA1: 129fb8dc5d549ef379651be0be252065c9c6a263
+SHA256: 96fd69cac3f8c892d22638313aa56c9c63223b4bda1792f5e8b0b2afb06754ae
+Section: utils
+Priority: optional
+Description: SixMiceLinux theme and settings for the Calamares Installer
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
+ .
+ It also serves as an example for how derivatives can create their own
+ calamares-settings packages.
+
+Package: sixmice-mate
+Version: 1.01.22
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Pre-Depends: sixmicesettings (>= 1.00.17)
+Depends: lsb-release, synaptic, sudo, sixmicesettings, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core
+Conflicts: sixmice-xfce, xfce4-appfinder, xfce4-battery-plugin, xfce4-panel, xfce4-session, xfce4-settings, xfdesktop4
+Filename: ./sixmice-mate-1.01.22_all.deb
+Size: 7932
+MD5sum: bc97f76a97d4e0941d207eeede9ce12a
+SHA1: 8cb3753a6f66d54cb169b86c058ecf6d0fc93650
+SHA256: 81cad21c464718529d178db1cd154ab7fdb8bf3362ce17a1d18142cf96d7f87f
+Priority: important
+Description: Settings for SixMiceLinux with MATE.
+
+Package: sixmice-xfce
+Version: 1.01.23
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Pre-Depends: sixmicesettings (>= 1.00.17)
+Depends: lsb-release, synaptic, sudo, sixmicesettings, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, parole, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker
+Conflicts: sixmice-mate, mate-session-manager, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-screensaver
+Filename: ./sixmice-xfce-1.01.23_all.deb
+Size: 403312
+MD5sum: bda0795515a6cd8a71d836e5a8401d9b
+SHA1: c222b1d6f26502e35a2ed7cdade01d9b164ae630
+SHA256: a18be91dd545a43d37744243754eac521d77d7ea3a9f2b338fb810aafbe5fc6d
+Priority: important
+Description: Settings for SixMiceLinux with Xfce.
+
+Package: sixmicesettings
+Version: 1.01.19
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Depends: lsb-release, synaptic, sudo
+Filename: ./sixmicesettings-1.01.19_all.deb
+Size: 23748
+MD5sum: 821062328ce687d1d0634adbe4458447
+SHA1: 4f44c762df5c279e7c05bcd82f93ff439e4bdfef
+SHA256: a7ea69f150c715357ab25d9242de82bcc3b759219faec9a0155e2f3b6e18d5e7
+Priority: important
+Description: Settings for SixMiceLinux.
+
+Package: sixmicewallpapers
+Version: 1.01.19
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Filename: ./sixmicewallpapers-1.01.19_all.deb
+Size: 56672640
+MD5sum: b90a004d8d20270376ffc5cda8a542be
+SHA1: 25ee1e77cedba24fb363772b249ea28c6f1a5af4
+SHA256: 1222ed5a27e4684ab12523208e852622d24fae5e7c8d4f347522c4e12cc52dfb
+Priority: optional
+Description: Wallpapers for SixMiceLinux.
+
