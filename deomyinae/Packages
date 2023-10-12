@@ -36,17 +36,17 @@ Priority: important
 Description: Settings for SixMiceLinux with MATE.
 
 Package: sixmice-xfce
-Version: 1.01.23
+Version: 1.01.23.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.00.17)
 Depends: lsb-release, synaptic, sudo, sixmicesettings, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, parole, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker
 Conflicts: sixmice-mate, mate-session-manager, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-screensaver
-Filename: ./sixmice-xfce-1.01.23_all.deb
-Size: 403312
-MD5sum: bda0795515a6cd8a71d836e5a8401d9b
-SHA1: c222b1d6f26502e35a2ed7cdade01d9b164ae630
-SHA256: a18be91dd545a43d37744243754eac521d77d7ea3a9f2b338fb810aafbe5fc6d
+Filename: ./sixmice-xfce-1.01.23.1_all.deb
+Size: 381476
+MD5sum: 6bc9c7489cf457a4483c1f88fd812464
+SHA1: 506e9a4944e75217dcd7bae4fb304a4a78ef8193
+SHA256: cb918191f128b135f70f52cf59a6419d25be9b3e289edc915d189b7e77d61fdd
 Priority: important
 Description: Settings for SixMiceLinux with Xfce.
 
