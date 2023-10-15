@@ -36,30 +36,30 @@ Priority: important
 Description: Settings for SixMiceLinux with MATE.
 
 Package: sixmice-xfce
-Version: 1.01.23.1
+Version: 1.02.39
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.00.17)
+Pre-Depends: sixmicesettings (>= 1.01.19)
 Depends: lsb-release, synaptic, sudo, sixmicesettings, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, parole, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker
 Conflicts: sixmice-mate, mate-session-manager, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-screensaver
-Filename: ./sixmice-xfce-1.01.23.1_all.deb
-Size: 381476
-MD5sum: 6bc9c7489cf457a4483c1f88fd812464
-SHA1: 506e9a4944e75217dcd7bae4fb304a4a78ef8193
-SHA256: cb918191f128b135f70f52cf59a6419d25be9b3e289edc915d189b7e77d61fdd
+Filename: ./sixmice-xfce-1.02.39_all.deb
+Size: 381400
+MD5sum: cd82210544b340091c7a31b0de3b4980
+SHA1: 72ccf7f2460396d98534a7c1bef8f6e1b3b87bf2
+SHA256: b701a79f3685436b01d95400daf06ab78d7194337c76605f8512dc674bddcb65
 Priority: important
 Description: Settings for SixMiceLinux with Xfce.
 
 Package: sixmicesettings
-Version: 1.01.19
+Version: 1.01.24
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Depends: lsb-release, synaptic, sudo
-Filename: ./sixmicesettings-1.01.19_all.deb
+Filename: ./sixmicesettings-1.01.24_all.deb
 Size: 23748
-MD5sum: 821062328ce687d1d0634adbe4458447
-SHA1: 4f44c762df5c279e7c05bcd82f93ff439e4bdfef
-SHA256: a7ea69f150c715357ab25d9242de82bcc3b759219faec9a0155e2f3b6e18d5e7
+MD5sum: b1d23c127c5c4e33e15badc09fe625bb
+SHA1: ff3721f7308f3b25b04db9e067fe2b36f11fedf2
+SHA256: a36c7f6fbb758f4c95178392b7d51a351bc49f151df58fd8dffb849aac76d264
 Priority: important
 Description: Settings for SixMiceLinux.
 
