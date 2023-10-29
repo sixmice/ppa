@@ -29,11 +29,11 @@ Depends: sixmice-lxde, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-s
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
 Suggests: atril, smplayer, smtube
 Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-userconfig-1.02.41.2_all.deb
-Size: 11848
-MD5sum: 7b751d1d8ea6c854ca713f2530269eb3
-SHA1: 137243530be8113c1d313ff0b5019b07a2f890a2
-SHA256: 33d9129bb9baaa93f0a05491a008211aafe210239973117b8a235080d7d7c641
+Filename: ./sixmice-lxde-userconfig-1.02.41.3_all.deb
+Size: 11952
+MD5sum: f2e8af3f233124c84345d2eb55d98f47
+SHA1: 14a9983857c29815dc78111bda77b60ed0e26275
+SHA256: aa28e674081479290c64fbdbab689c7e95e48623fce00d9149055066ee5a75fd
 Priority: important
 Description: Settings for SixMiceLinux with LXDE.
  This package differs from sixmice-lxde package because
@@ -63,18 +63,18 @@ Description: Settings for SixMiceLinux with MATE.
  to install sixmice-mate-userconfig.
 
 Package: sixmice-mate-userconfig
-Version: 1.02.41.1
+Version: 1.02.41.2
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.01.24), sixmicewallpapers (>= 1.01.19), sixmice-mate (>= 1.02.39)
 Depends: sixmice-mate, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core, mate-themes, mate-icon-theme, mate-backgrounds
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-mate-userconfig-1.02.41.1_all.deb
-Size: 16784
-MD5sum: 7a62ec3ed9b7338c077d45df7e782f63
-SHA1: 35ba4209476ba93c95a8c08fa5c31d260c13757f
-SHA256: 74768a8438e1f2f01234c0c4cba23389c8d6b7d78324304c1415d84f686dcd1c
+Filename: ./sixmice-mate-userconfig-1.02.41.2_all.deb
+Size: 16856
+MD5sum: 6b223e3b63104ae0a30efc016074d21d
+SHA1: ef7f6e64e0f0b8c38d82697b965909a0fbb6929e
+SHA256: 567d385482471f7b685f3fd9a7b2f54d8bc54455729047dfad39d300274ffb03
 Priority: important
 Description: Settings for SixMiceLinux with MATE.
  This package differs from sixmice-mate package because
@@ -104,18 +104,18 @@ Description: Settings for SixMiceLinux with Xfce.
  to install sixmice-xfce-userconfig.
 
 Package: sixmice-xfce-userconfig
-Version: 1.02.41.1
+Version: 1.02.41.2
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.01.24), sixmicewallpapers (>= 1.01.19), sixmice-xfce (>= 1.02.39)
 Depends: sixmice-xfce, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, parole, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, light-locker, thunar
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-xfce-userconfig-1.02.41.1_all.deb
-Size: 7000
-MD5sum: 096a0ea601021d6609cab655f41d4ed0
-SHA1: 51122534816ce4791aacca3c621632cdce72a208
-SHA256: 5928f7950b3dc31598b36356a3e55047f633bc0f57341be504312af5e7a4a72f
+Filename: ./sixmice-xfce-userconfig-1.02.41.2_all.deb
+Size: 7100
+MD5sum: 9d1f2b585829e02578caf494c5488de0
+SHA1: a5ac0a950efaf1825dfcb967c69c292330f2d256
+SHA256: c426023e5217a57f7d361a93d5451401151481b22c474955e21054164177cf60
 Priority: important
 Description: Settings for SixMiceLinux with Xfce.
  This package differs from sixmice-xfce package because
