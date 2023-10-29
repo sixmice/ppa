@@ -21,7 +21,7 @@ Description: Settings for SixMiceLinux with LXDE.
  to install sixmice-lxde-userconfig.
 
 Package: sixmice-lxde-userconfig
-Version: 1.02.41.1
+Version: 1.02.41.2
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.01.24), sixmicewallpapers (>= 1.01.19), sixmice-lxde (>= 1.02.40)
@@ -29,11 +29,11 @@ Depends: sixmice-lxde, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-s
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
 Suggests: atril, smplayer, smtube
 Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-userconfig-1.02.41.1_all.deb
-Size: 11876
-MD5sum: fdeac9fe9919a65f82e272bed3bb6fba
-SHA1: 6bda3725600d9e066af824809e062ac0a90c882f
-SHA256: f600466c994bb0f200ec11c3b00833a85ca375b359973a6387bb13135836c9d4
+Filename: ./sixmice-lxde-userconfig-1.02.41.2_all.deb
+Size: 11848
+MD5sum: 7b751d1d8ea6c854ca713f2530269eb3
+SHA1: 137243530be8113c1d313ff0b5019b07a2f890a2
+SHA256: 33d9129bb9baaa93f0a05491a008211aafe210239973117b8a235080d7d7c641
 Priority: important
 Description: Settings for SixMiceLinux with LXDE.
  This package differs from sixmice-lxde package because
