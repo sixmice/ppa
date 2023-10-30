@@ -1,3 +1,43 @@
+Package: refractainstaller-base
+Version: 9.6.6
+Architecture: all
+Origin: Devuan
+Maintainer: fsmithred <fsmithred@gmail.com>
+Installed-Size: 104
+Depends: bash (>= 4.1), rsync (>= 3.0), sed (>= 4.2), grep (>= 2.6), coreutils (>= 8.5), e2fsprogs (>= 1.41.12), mount (>= 2.17.2), fdisk | util-linux (<< 2.29.2-3~)
+Recommends: cryptsetup, dosfstools
+Suggests: grub-pc | grub-legacy | grub-efi-amd64 | grub-efi-ia32
+Filename: ./refractainstaller-base_9.6.6_all.deb
+Size: 35996
+MD5sum: 7662f88e164567dfb68dd92beccd2372
+SHA1: 40ab5a7b7956b20276352b868823d366f0fea043
+SHA256: 6719b345f5c555907e9f9e1b631f7f1275080c19fd3f6d53bc3d32e123741a20
+Section: misc
+Priority: optional
+Description: tool to install a running live-CD to hard drive.
+ Refracta Installer installs a live-CD or live-usb-hdd, including any
+ changes you've made to the running system onto a hard drive. This is
+ the cli-only version.
+
+Package: refractainstaller-gui
+Version: 9.6.6
+Architecture: all
+Origin: Devuan
+Maintainer: fsmithred <fsmithred@gmail.com>
+Installed-Size: 96
+Depends: gparted (>= 0.7.0), yad (>= 0.17.1.1), refractainstaller-base (>= 9.5.6), xterm
+Filename: ./refractainstaller-gui_9.6.6_all.deb
+Size: 31632
+MD5sum: c51bb89a94277f9750cbb51951db4f0d
+SHA1: b03063c8e078efd8321fb61420a38e953f659782
+SHA256: 8cc171765bff49047f3f2ba46aaaafc0a98cab2a16e01ea205cef909940b3f88
+Section: misc
+Priority: optional
+Description: tool to install a running live-CD to hard drive.
+ Refracta Installer installs a live-CD or live-usb-hdd, including any
+ changes you've made to the running system onto a hard drive. This is
+ the graphical version.
+
 Package: sixmice-lxde
 Version: 1.02.41.1
 Architecture: all
