@@ -1,5 +1,5 @@
 Package: qogir-dark-theme
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
@@ -7,11 +7,11 @@ Depends: sixmicesettings, sixmicewallpapers
 Recommends: qogir-icon-theme
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-orange-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./qogir-dark-theme-1.02.41_all.deb
-Size: 1026300
-MD5sum: 2c4d23eca042e0d9f9175399e98ac2f4
-SHA1: 9b3ef69055b8a09d853a241c2eb4a69d4e3dd2e0
-SHA256: 31ca1a63ab6cf7fca3e52e7908a30bff7824692768ccae6dd338db764a2db8ff
+Filename: ./qogir-dark-theme-1.02.41.1_all.deb
+Size: 1026272
+MD5sum: 4ab8914c050d39e708263e519db79376
+SHA1: 3aa9b698e89f6128aca92e38540fb8fb6ed750e9
+SHA256: 4625f4818f2292f8c31011363223c05dd68d4c2b968f2f3d16fd20fa7bbc035a
 Priority: important
 Description: Dark version of Qogir theme for GTK+ desktop environments.
  Used as a default theme in SixMiceLinux.
