@@ -1,2 +1,1 @@
-# ppa
-Personal PPA repository.
+# SixMiceLinux PPA
