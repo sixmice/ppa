@@ -1,17 +1,16 @@
 Package: qogir-dark-theme
-Version: 1.02.41.1
+Version: 1.02.41.2
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sixmicesettings, sixmicewallpapers
-Recommends: qogir-icon-theme
+Recommends: qogir-icon-theme, sixmicesettings
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-orange-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./qogir-dark-theme-1.02.41.1_all.deb
-Size: 1026272
-MD5sum: 4ab8914c050d39e708263e519db79376
-SHA1: 3aa9b698e89f6128aca92e38540fb8fb6ed750e9
-SHA256: 4625f4818f2292f8c31011363223c05dd68d4c2b968f2f3d16fd20fa7bbc035a
+Filename: ./qogir-dark-theme-1.02.41.2_all.deb
+Size: 1026268
+MD5sum: 027e73ba112cc2e127d738fa90a15d3e
+SHA1: 262bdafdb22213e19912827ebb7f39a1ec4b83d1
+SHA256: 12d3cc5724c2167a38a4b40dac8d79cb0ace290d6a23cebd197eb4ac6cb404bb
 Priority: important
 Description: Dark version of Qogir theme for GTK+ desktop environments.
  Used as a default theme in SixMiceLinux.
@@ -19,19 +18,18 @@ Description: Dark version of Qogir theme for GTK+ desktop environments.
  under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
 
 Package: qogir-icon-theme
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sixmicesettings, sixmicewallpapers
-Recommends: qogir-dark-theme
+Recommends: qogir-dark-theme, sixmicesettings
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-orange-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./qogir-icon-theme-1.02.41_all.deb
-Size: 3694900
-MD5sum: 0005d59dbbb7161697fdef522f4377a3
-SHA1: c2e148f4f3bb39e1ad6719c4f503a3c3b443f6d5
-SHA256: 551f8f1f1ff1838ea83e5c0082d3947eb20f6b616e007daec02ac55911aa5bdb
+Filename: ./qogir-icon-theme-1.02.41.1_all.deb
+Size: 3694896
+MD5sum: d1f7c5e213f67ce295537242157f9588
+SHA1: a066ff12d44101e45fd454b6a226cc77f860cba1
+SHA256: fdbe923817da993a4c392d219480cf5bf5281de4528345aa39755d03da216714
 Priority: important
 Description: Qogir icon theme for desktop environments.
  Used as a default icon theme in SixMiceLinux.
@@ -231,19 +229,18 @@ Priority: optional
 Description: Wallpapers for SixMiceLinux.
 
 Package: tela-blue-icon-theme
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sixmicesettings, sixmicewallpapers
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-orange-icon-theme, tela-green-icon-theme
+Recommends: qogir-dark-theme, qogir-icon-theme, tela-orange-icon-theme, tela-green-icon-theme, sixmicesettings, sixmicewallpapers
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-blue-icon-theme-1.02.41_all.deb
+Filename: ./tela-blue-icon-theme-1.02.41.1_all.deb
 Size: 3345724
-MD5sum: 9b47817c8ca9e1d5bb52d6a7785adca3
-SHA1: 3bbd01c6e0bbb6b3a49333aeccc59e10544d71b1
-SHA256: 2e30ac4838793ce9142f58f80dd2dae89b63453a5b3dadc7d757b83a504c0f06
+MD5sum: db241a0cef2f491e57ae3a48a88fdfaf
+SHA1: d0ea702925028c4d0ff4ebe6fcb72ee2da4c98d1
+SHA256: 60ac9a0494643f86343e41be3787044af08f455bf5574b182b9be8f26e74a134
 Priority: important
 Description: Tela icon theme for desktop environments.
  Additional icons for SixMiceLinux with blue accent.
@@ -251,19 +248,18 @@ Description: Tela icon theme for desktop environments.
  under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
 
 Package: tela-green-icon-theme
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sixmicesettings, sixmicewallpapers
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-blue-icon-theme, tela-orange-icon-theme
+Recommends: qogir-dark-theme, qogir-icon-theme, tela-blue-icon-theme, tela-orange-icon-theme, sixmicesettings, sixmicewallpapers
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-green-icon-theme-1.02.41_all.deb
-Size: 3361968
-MD5sum: ba96b4d861706a2ff2eb11ae7e2695bb
-SHA1: 0478bda0744d1382fd29d7afd05cf7a1173a8d72
-SHA256: 816c114d9488384b9089f982aacfc6592a6bea915388a2682c8659fcbd8f4abe
+Filename: ./tela-green-icon-theme-1.02.41.1_all.deb
+Size: 3361964
+MD5sum: 1ef16c23aab9b02abd13e0543659a04b
+SHA1: 197574433f9aad5e32c0da678da1a6c7cf3546af
+SHA256: 72523d9c964c1ddb61b6d5cef7ff9c40481db0a9c971044ae7ec5ebea6699ee0
 Priority: important
 Description: Tela icon theme for desktop environments.
  Additional icons for SixMiceLinux with green accent.
@@ -273,19 +269,18 @@ Description: Tela icon theme for desktop environments.
  under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
 
 Package: tela-orange-icon-theme
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sixmicesettings, sixmicewallpapers
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
+Recommends: qogir-dark-theme, qogir-icon-theme, tela-green-icon-theme, tela-blue-icon-theme, sixmicesettings, sixmicewallpapers
 Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-orange-icon-theme-1.02.41_all.deb
-Size: 3340460
-MD5sum: 23e9f030df875b3a2bd6b8b0a7db1d7b
-SHA1: 99cdfb2c065f4c3644a3d138dff0dab8fbe7b37d
-SHA256: 8cc054e5c53942855f418a93888189914a1588df1a04cbcf2674523e74765872
+Filename: ./tela-orange-icon-theme-1.02.41.1_all.deb
+Size: 3340464
+MD5sum: 882fdae3c927fb3412e04592751677e5
+SHA1: aa8566653afa069b1f5ba4629aa1f85c44bc6558
+SHA256: 5eef587d8d84aa8dcf664ad8f3761973849862c05e32ca73541edb24a35c3651
 Priority: important
 Description: Tela icon theme for desktop environments.
  Additional icons for SixMiceLinux with orange accent.
