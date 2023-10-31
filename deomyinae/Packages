@@ -202,17 +202,17 @@ Description: Settings for SixMiceLinux with Xfce.
  its files in /etc/skel.
 
 Package: sixmicesettings
-Version: 1.02.41.3
+Version: 1.02.41.4
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Depends: lsb-release, synaptic, sudo, arc-theme, bluebird-gtk-theme, elementary-xfce-icon-theme, xinit, xorg, greybird-gtk-theme, lightdm, lightdm-gtk-greeter, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, pulseaudio, pavucontrol, sysvinit-core, sysv-rc, orphan-sysvinit-scripts, libpam-elogind, elogind, laptop-detect, sixmicewallpapers, qogir-dark-theme, qogir-icon-theme
-Recommends: qt5ct, qt5-style-plugins, qogir-dark-theme, qogir-icon-theme
+Depends: lsb-release, synaptic, sudo, arc-theme, bluebird-gtk-theme, elementary-xfce-icon-theme, xinit, xorg, greybird-gtk-theme, lightdm, lightdm-gtk-greeter, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, pulseaudio, pavucontrol, sysvinit-core, sysv-rc, orphan-sysvinit-scripts, libpam-elogind, elogind, laptop-detect, sixmicewallpapers
+Recommends: qt5ct, qt5-style-plugins
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmicesettings-1.02.41.3_all.deb
-Size: 2214612
-MD5sum: a79a7476d67b2bd0783d40dc6ea1ca55
-SHA1: bfb7178e6095a60f4bd6a08c068c1cb63580ec23
-SHA256: 96ebb93b904a16b094a9bbe9233c2bab29c9cbd9418dd55d7069c4e6531553e4
+Filename: ./sixmicesettings-1.02.41.4_all.deb
+Size: 2214600
+MD5sum: 1b9aa805b2b84a60c493a02c5458b767
+SHA1: af5e3a79d5935678561d2fbdfc4dc1e8ad07829c
+SHA256: cadbe7416d4f8f5a64818861244341b70e7a522a0f395cf0356ab90b16120a3e
 Priority: important
 Description: Settings for SixMiceLinux.
 
