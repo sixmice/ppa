@@ -77,18 +77,18 @@ Description: tool to install a running live-CD to hard drive.
  the graphical version.
 
 Package: sixmice-calamares-settings
-Version: 1.02.41
+Version: 1.02.41.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>=1.02.39)
-Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend, sixmicesettings
+Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend, sixmicesettings, squashfs-tools
 Conflicts: calamares-settings-debian
 Provides: calamares-settings
-Filename: ./sixmice-calamares-settings-1.02.41_all.deb
-Size: 99120
-MD5sum: 9cbc030ea335a5e2976c95df3385f72d
-SHA1: eaf9a31f31208b36c1bb415d70974c88f46e9494
-SHA256: 6cc2ff1f343a0cbc3afba6c69e0aeb3448a228e4db88b03b630321f647df27be
+Filename: ./sixmice-calamares-settings-1.02.41.1_all.deb
+Size: 99144
+MD5sum: bed24a7889037898bbb2a58af5c674dc
+SHA1: 4f5e929d27d4d357d3da2cb16943dd54608b5738
+SHA256: 363681294d43010efb82a851d2f646c1e691b694d044ee4eee816127ee45b7c1
 Section: utils
 Priority: optional
 Description: SixMiceLinux settings for the Calamares Installer.
