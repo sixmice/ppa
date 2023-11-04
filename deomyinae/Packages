@@ -186,18 +186,18 @@ Description: Settings for SixMiceLinux with MATE.
  its files in /etc/skel.
 
 Package: sixmice-xfce
-Version: 1.02.42
+Version: 1.02.42.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
 Depends: sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-xfce-1.02.42_all.deb
-Size: 380580
-MD5sum: 8c82466f982297ec851c278c1c8b1216
-SHA1: 28f2d357ac61fa93955582d4d960058a5a786a94
-SHA256: 5d8b45f8eada6439cc08517a19df909ce0934fbd1d5e14196f2b55ea916e9699
+Filename: ./sixmice-xfce-1.02.42.1_all.deb
+Size: 381144
+MD5sum: 7be042525ab62d0ca80f7c3a02cf55ea
+SHA1: a7edf07aea180660d631455d19d33f957492ed4a
+SHA256: 634099256b892fdde78d4f5ff2015d5438c990dbaad40bcb7fb5699efbd219fb
 Priority: important
 Description: Settings for SixMiceLinux with Xfce.
  This package applies SixMice configs only in /etc/skel
@@ -207,18 +207,18 @@ Description: Settings for SixMiceLinux with Xfce.
  to install sixmice-xfce-userconfig.
 
 Package: sixmice-xfce-userconfig
-Version: 1.02.42
+Version: 1.02.42.1
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19), sixmice-xfce (>= 1.02.39)
 Depends: sixmice-xfce, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-xfce-userconfig-1.02.42_all.deb
-Size: 7392
-MD5sum: 610ac654b0f1801b39862f579c4da90a
-SHA1: 56df535387b9cb65e677a4e8670416fbd81f94e4
-SHA256: f0f30d146cfebca863cc08115ceaae0a2874d59406975e22d93ffefacee664d1
+Filename: ./sixmice-xfce-userconfig-1.02.42.1_all.deb
+Size: 7396
+MD5sum: d0acf9ad5089d03e86404b253ba67475
+SHA1: 35ecb7365dd3b5403f90605f2baf147a3d31301c
+SHA256: d524d4bcad32cdb925c6e0606e66a7badd3b00cfbb33d98f2bc4ba02fa5747f9
 Priority: important
 Description: Settings for SixMiceLinux with Xfce.
  This package differs from sixmice-xfce package because
