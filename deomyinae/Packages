@@ -102,7 +102,7 @@ Description: SixMiceLinux settings for the Calamares Installer.
  calamares-settings packages.
 
 Package: sixmice-lxde
-Version: 1.02.41.2
+Version: 1.02.42
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
@@ -110,11 +110,11 @@ Depends: sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-script
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
 Suggests: atril, smplayer, smtube
 Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-1.02.41.2_all.deb
-Size: 11164
-MD5sum: 479dc5a464117a772dca7d8f13027f1c
-SHA1: 3ff0d0abf5777ef20f6dd60e01315b80076f0daa
-SHA256: fabda6968f0765b8748997bd4351a4c5baa7458b0d40c0fde468c75debed29c4
+Filename: ./sixmice-lxde-1.02.42_all.deb
+Size: 11144
+MD5sum: 53406ba7a938f6be6aaa8b9c1c459505
+SHA1: 9a4b3c6bd0a65c015ab38b8a0898b7434736def9
+SHA256: 6ed273a45186075df9c81e33921e100c971ac59b7ad02375bef7e007e6fc014f
 Priority: important
 Description: Settings for SixMiceLinux with LXDE.
  This package applies SixMice configs only in /etc/skel
@@ -124,7 +124,7 @@ Description: Settings for SixMiceLinux with LXDE.
  to install sixmice-lxde-userconfig.
 
 Package: sixmice-lxde-userconfig
-Version: 1.02.41.4
+Version: 1.02.42
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19), sixmice-lxde (>= 1.02.40)
@@ -132,11 +132,11 @@ Depends: sixmice-lxde, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-s
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
 Suggests: atril, smplayer, smtube
 Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-userconfig-1.02.41.4_all.deb
-Size: 11972
-MD5sum: df05407b3a7128212e83b39d129326e2
-SHA1: 727b71402d4e0cefd93988e4694b4238f6a3e56a
-SHA256: 41629901ee4940f69f9cd675fe1b883565965dfd31d0f87ef652ed5f8330dd77
+Filename: ./sixmice-lxde-userconfig-1.02.42_all.deb
+Size: 11952
+MD5sum: e7d110c9cb6d610a329da0fc9e944c27
+SHA1: 2922aabc0ae43a7490daa1b05dc7c9a17558ae7c
+SHA256: 75fcfce5384a454b417b9d476e7a367be2124952f5494f21e67d3717d97c82c2
 Priority: important
 Description: Settings for SixMiceLinux with LXDE.
  This package differs from sixmice-lxde package because
