@@ -1,16 +1,37 @@
-Package: qogir-dark-theme
-Version: 1.02.41.4
+Package: matcha-gtk-theme
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
+Installed-Size: 57700
+Pre-Depends: sixmicesettings (>= 1.02.41), sixmicewallpapers (>= 1.02.39)
 Recommends: qogir-icon-theme
-Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-orange-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
+Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-icon-theme, arc-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./qogir-dark-theme-1.02.41.4_all.deb
-Size: 1026312
-MD5sum: 14e38ae5d26f2e8a47852cec0556a52c
-SHA1: 9ebbd5969f753e50c0d927905ec01dd96f97e1cf
-SHA256: 92d0d0d9e925e724da1bbf64b1395f459ba429d67aafd547452f6704a25348e6
+Filename: ./matcha-gtk-theme-1.02.43_all.deb
+Size: 1890884
+MD5sum: ffda91d8b265d3c5213bb32e227cd21d
+SHA1: 25ea5f7f040b9333d74a3d9eeb2dadac23de53eb
+SHA256: 1c5dc7fae2bce53dcf681d92355e19eca61d790588a1657b97f9a7d270664ebd
+Priority: optional
+Description: Matcha theme for GTK+ desktop environments.
+ Additional themes for SixMiceLinux.
+ Created by Vince Liuice (https://github.com/vinceliuice) and licensed
+ under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
+
+Package: qogir-dark-theme
+Version: 1.02.43
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 6760
+Pre-Depends: sixmicesettings (>= 1.02.41), sixmicewallpapers (>= 1.01.19)
+Recommends: qogir-icon-theme
+Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-icon-theme, arc-theme
+Conflicts: systemd, libpam-systemd, systemd-sysv
+Filename: ./qogir-dark-theme-1.02.43_all.deb
+Size: 1026316
+MD5sum: afc6cdbf4f2c2fe5a0fddb4b67fd7634
+SHA1: a952881f59456686a2beffff4045e76a87b4f951
+SHA256: 9306d78eb8d07d587130b580e9d0c8585f0c428622b8bacd953f31a6dc0fa1bb
 Priority: important
 Description: Dark version of Qogir theme for GTK+ desktop environments.
  Used as a default theme in SixMiceLinux.
@@ -18,23 +39,41 @@ Description: Dark version of Qogir theme for GTK+ desktop environments.
  under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
 
 Package: qogir-icon-theme
-Version: 1.02.41.3
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
+Installed-Size: 85300
+Pre-Depends: sixmicesettings (>= 1.02.41), sixmicewallpapers (>= 1.01.19)
 Recommends: qogir-dark-theme
-Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-orange-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
+Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme, tela-icon-theme, arc-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./qogir-icon-theme-1.02.41.3_all.deb
+Filename: ./qogir-icon-theme-1.02.43_all.deb
 Size: 3695368
-MD5sum: f3650f82f100fe47336865de114e693b
-SHA1: 252a810c021fea4f6e71d1f5fa58e185610f36dd
-SHA256: ea39b68cde669286d5bb4e71b81772bbe4190e67ad776dfc87d36a3025f17a88
+MD5sum: f69591d4fa2ff2ca151937cd0fe9c336
+SHA1: b4528dc5e9a5c6be4dad64aae5aa299cf6fd5002
+SHA256: 4ecdd054be547ecf1dea471a24f485f163698dd5740eee92a9de9f6499ca8be7
 Priority: important
 Description: Qogir icon theme for desktop environments.
  Used as a default icon theme in SixMiceLinux.
  Created by Vince Liuice (https://github.com/vinceliuice) and licensed
  under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
+
+Package: refracta2usb
+Version: 2.4.3
+Architecture: all
+Essential: no
+Maintainer: fsmithred@gmail.com
+Depends: syslinux, syslinux-common, gparted, yad, xterm, hwinfo, dosfstools, pv
+Recommends: cryptsetup, mbr, mtools
+Replaces: refracta2usb (<< 2.4.3)
+Filename: ./refracta2usb-2.4.3.deb
+Size: 56168
+MD5sum: 8aa25abf515d57846b989e497125fc20
+SHA1: 7f767351b01fc2386a579a27d99c6f780c1d704b
+SHA256: e2effcbec483858218a3cbe0ce0df812fd5eb2fd4bd938bee8fb28ecdf8fd704
+Section: system
+Priority: optional
+Description: Make live-USB from cdrom iso or from running live system.
 
 Package: refractainstaller-base
 Version: 9.6.6
@@ -76,19 +115,59 @@ Description: tool to install a running live-CD to hard drive.
  changes you've made to the running system onto a hard drive. This is
  the graphical version.
 
-Package: sixmice-calamares-settings
-Version: 1.02.42.1
+Package: refractasnapshot-base
+Version: 10.2.12
 Architecture: all
+Maintainer: fsmithred <fsmithred@gmail.com>
+Installed-Size: 403
+Depends: bash (>= 4.1), mount, rsync (>= 3.0.7), squashfs-tools (>= 4.0), xorriso (>= 1.2.2), gawk (>= 3.1.7) | mawk (>= 1.3.3), live-boot (>= 2.0.15), live-config (>= 2.0.15), live-boot-initramfs-tools (>= 2.0.15), syslinux-common, syslinux (<< 3:6.03) | syslinux (>= 3:6.03), syslinux (<< 3:6.03) | isolinux (>= 3:6.03)
+Recommends: dosfstools, live-config-sysvinit | live-config-systemd | live-config-upstart | live-config-backend
+Filename: ./refractasnapshot-base_10.2.12_all.deb
+Size: 147808
+MD5sum: 25a6da820fbaa5beb73f8fc3d914f7bf
+SHA1: e8819684b48df7422407207ebf5f7ebddd2697c4
+SHA256: fa09973ac412d865004fdfc0b376df3b07793bb1b56f131f3686497ca181f233
+Section: misc
+Priority: optional
+Description: tool to create a live-CD from the running system
+ Refracta Snapshot copies the running system, squashes the copy and
+ makes an iso image file, which can be used to create a customized
+ live-CD.
+
+Package: refractasnapshot-gui
+Version: 10.2.12
+Architecture: all
+Maintainer: fsmithred <fsmithred@gmail.com>
+Installed-Size: 64
+Depends: bash (>= 4.1), rsync (>= 3.0.7), squashfs-tools (>= 4.0), xorriso (>= 1.2.2), gawk (>= 3.1.7) | mawk (>= 1.3.3), refractasnapshot-base (>= 10.2.0), yad (>= 0.17)
+Recommends: dosfstools
+Filename: ./refractasnapshot-gui_10.2.12_all.deb
+Size: 31908
+MD5sum: 9b8c11723dc5cbe424b76eaf57a9179b
+SHA1: fb76e4d258e1ad27167d5978d88326416c08395b
+SHA256: f93bf7eecc5d943118eb0ce0283ee47edca8cca0e5548e40db0052995faa68ea
+Section: misc
+Priority: optional
+Homepage: https://git.devuan.org/devuan-packages/refractasnapshot-gui
+Description: tool to create a live-CD from the running system
+ Refracta Snapshot copies the running system, squashes the copy and
+ makes an iso image file, which can be used to create a customized
+ live-CD.
+
+Package: sixmice-calamares-settings
+Version: 1.02.43
+Architecture: amd64
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>=1.02.39)
+Installed-Size: 5735
+Pre-Depends: sixmicesettings (>= 1.02.42)
 Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtquick-window2, qml-module-qtquick2, dconf-gsettings-backend | gsettings-backend, sixmicesettings, squashfs-tools
 Conflicts: calamares-settings-debian
 Provides: calamares-settings
-Filename: ./sixmice-calamares-settings-1.02.42.1_all.deb
-Size: 5244492
-MD5sum: 4b2b956806a839f6a8cd4356f1402c92
-SHA1: 7ba1c61eb4c64deb8a81774fb2e7f0f2e6245558
-SHA256: f7e55a28910a8053473156a4347c443cc14a7ded9980da907d5bb969b9bf3e31
+Filename: ./sixmice-calamares-settings-1.02.43_amd64.deb
+Size: 5244572
+MD5sum: 1618eafcb17a0a6cdb350a85957ea9f0
+SHA1: e52971ee25f00746b534190b0bfa2e457e96bee7
+SHA256: 7e56b2927bf242c3cd6cca8377fea06f56a4b2b627f4b7b014cd56b014b63e54
 Section: utils
 Priority: optional
 Description: SixMiceLinux settings for the Calamares Installer.
@@ -102,20 +181,21 @@ Description: SixMiceLinux settings for the Calamares Installer.
  calamares-settings packages.
 
 Package: sixmice-lxde
-Version: 1.02.42
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 168
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, qogir-dark-theme, qogir-icon-theme
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
-Suggests: atril, smplayer, smtube
-Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-1.02.42_all.deb
-Size: 11144
-MD5sum: 53406ba7a938f6be6aaa8b9c1c459505
-SHA1: 9a4b3c6bd0a65c015ab38b8a0898b7434736def9
-SHA256: 6ed273a45186075df9c81e33921e100c971ac59b7ad02375bef7e007e6fc014f
-Priority: important
+Depends: sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, lxsession-default-apps
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, qogir-dark-theme, qogir-icon-theme, numix-gtk-theme, xfce4-power-manager
+Suggests: atril, smplayer, timidity
+Conflicts: systemd, libpam-systemd, systemd-sysv
+Filename: ./sixmice-lxde-1.02.43_all.deb
+Size: 11504
+MD5sum: 53d3684a9d319682b772024233e03d92
+SHA1: 914694f5dd5b52ab39baccced554b694c089393a
+SHA256: fc928d250423e7d872118ce3798667ea0c7c4261cdfb78bab4b1093045f13e9c
+Priority: standard
 Description: Settings for SixMiceLinux with LXDE.
  This package applies SixMice configs only in /etc/skel
  folder so them can be used only by new user, not by
@@ -124,20 +204,21 @@ Description: Settings for SixMiceLinux with LXDE.
  to install sixmice-lxde-userconfig.
 
 Package: sixmice-lxde-userconfig
-Version: 1.02.42
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 168
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19), sixmice-lxde (>= 1.02.40)
-Depends: sixmice-lxde, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, qogir-dark-theme, qogir-icon-theme
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver
-Suggests: atril, smplayer, smtube
-Conflicts: systemd, libpam-systemd, systemd-sysv, gnome-screenshot
-Filename: ./sixmice-lxde-userconfig-1.02.42_all.deb
-Size: 11952
-MD5sum: e7d110c9cb6d610a329da0fc9e944c27
-SHA1: 2922aabc0ae43a7490daa1b05dc7c9a17558ae7c
-SHA256: 75fcfce5384a454b417b9d476e7a367be2124952f5494f21e67d3717d97c82c2
-Priority: important
+Depends: sixmice-lxde, sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, lxsession-default-apps
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, qogir-dark-theme, qogir-icon-theme, numix-gtk-theme, xfce4-power-manager, timidity
+Suggests: atril, smplayer
+Conflicts: systemd, libpam-systemd, systemd-sysv
+Filename: ./sixmice-lxde-userconfig-1.02.43_all.deb
+Size: 11984
+MD5sum: cfb5cc6c7a6966bb6b27adbd8e05736f
+SHA1: dec8f52f0adf8a07f8fc88b452a71e413a4f37ec
+SHA256: be0addb6749bd646de4f4c64745cc4cedb11b7c237dfab068e0cd7d200b640af
+Priority: standard
 Description: Settings for SixMiceLinux with LXDE.
  This package differs from sixmice-lxde package because
  this package include script that will apply SixMice configs
@@ -145,19 +226,20 @@ Description: Settings for SixMiceLinux with LXDE.
  its files in /etc/skel.
 
 Package: sixmice-mate
-Version: 1.02.42
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 50
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core, qogir-dark-theme, qogir-icon-theme
+Depends: sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core, qogir-dark-theme, qogir-icon-theme
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-mate-1.02.42_all.deb
-Size: 8664
-MD5sum: fe77cb089d5b07a38a11943adceab1e9
-SHA1: 868e831bc0ab69442f06150f593f96c1e67decc7
-SHA256: f96860f2e5fab5c23fe18f941ecdbcb29c3104cc0a0963e1eced7dc6705274a5
-Priority: important
+Filename: ./sixmice-mate-1.02.43_all.deb
+Size: 8684
+MD5sum: 55043d8ba9c136b0b14b8a7d1dd5f3d8
+SHA1: 9f56f26ed788aab5f7dc1968a347dbd033fbad92
+SHA256: af22ae4acf26e86c62b62fa89407a6b860d5a9d029b26cd37d86b1d57666d215
+Priority: standard
 Description: Settings for SixMiceLinux with MATE.
  This package applies SixMice configs only in /etc/skel
  folder so them can be used only by new user, not by
@@ -166,19 +248,20 @@ Description: Settings for SixMiceLinux with MATE.
  to install sixmice-mate-userconfig.
 
 Package: sixmice-mate-userconfig
-Version: 1.02.42
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 50
 Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19), sixmice-mate (>= 1.02.39)
-Depends: sixmice-mate, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core, qogir-dark-theme, qogir-icon-theme
+Depends: sixmice-mate, sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, firefox-esr, network-manager-gnome, network-manager, mate-session-manager, mate-terminal, mate-applets, mate-calc, mate-applet-brisk-menu, mate-applet-appmenu, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, mate-menu, mate-notification-daemon, mate-notification-daemon-common, mate-power-manager, mate-power-manager-common, mate-screensaver, mate-screensaver-common, mate-sensors-applet, mate-sensors-applet-common, mate-tweak, mate-utils, mate-utils-common, mate-common, mate-control-center, mate-control-center-common, mate-indicator-applet, mate-indicator-applet-common, mate-window-applets-common, mate-window-buttons-applet, mate-window-title-applet, mate-window-menu-applet, vala-panel-appmenu-common, caja-open-terminal, engrampa, pluma, atril, ffmpegthumbnailer, sysvinit-core, qogir-dark-theme, qogir-icon-theme
 Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-mate-userconfig-1.02.42_all.deb
-Size: 9140
-MD5sum: cbe1212fd16a8106d3b60aa101e0e6bd
-SHA1: d5142b00cb8835ba8638411cd7884be35ce5e5bd
-SHA256: 77367f37004cfbde0812366f4663b7fa7b667101a6eb87c3fc360620df1c6426
-Priority: important
+Filename: ./sixmice-mate-userconfig-1.02.43_all.deb
+Size: 9192
+MD5sum: 4ea040cccae4399d5181d840bd792055
+SHA1: 5efd71ed3f2b2f2183625d2ba3424c12cf416fb0
+SHA256: b4bdf8ac8d94d7a38534e2b43bbd4938b1250aacc43273a7de9dccacc8b66a29
+Priority: standard
 Description: Settings for SixMiceLinux with MATE.
  This package differs from sixmice-mate package because
  this package includes script that will apply SixMice configs
@@ -186,19 +269,20 @@ Description: Settings for SixMiceLinux with MATE.
  its files in /etc/skel.
 
 Package: sixmice-xfce
-Version: 1.02.42.2
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Depends: sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
+Installed-Size: 724
+Pre-Depends: sixmicesettings (>= 1.02.41), sixmicewallpapers (>= 1.01.19)
+Depends: sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, sysvinit-core, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, engrampa, mate-calc, atril
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-xfce-1.02.42.2_all.deb
-Size: 381284
-MD5sum: 8d5faacd004446e0a368b5f7c5981f71
-SHA1: df906902d45777763e4b8df81198adbf15819552
-SHA256: 1b2fde6675abd0966832f7fe45341c61527795195b21f6633ee2b1d6d32b11a1
-Priority: important
+Filename: ./sixmice-xfce-1.02.43_all.deb
+Size: 381140
+MD5sum: e63bc3edc0925079bf7d5db4800981c6
+SHA1: d041f8d6c155a8223855312acbad61ef34b50b46
+SHA256: f87a6cc0a404cd19de4cf4c055b7d37856abc2c7a20f62e143766ced8201a293
+Priority: standard
 Description: Settings for SixMiceLinux with Xfce.
  This package applies SixMice configs only in /etc/skel
  folder so them can be used only by new user, not by
@@ -207,19 +291,20 @@ Description: Settings for SixMiceLinux with Xfce.
  to install sixmice-xfce-userconfig.
 
 Package: sixmice-xfce-userconfig
-Version: 1.02.42.2
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19), sixmice-xfce (>= 1.02.39)
-Depends: sixmice-xfce, sysvinit-core, sysv-rc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, engrampa, mate-calc, atril, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi
+Installed-Size: 95
+Pre-Depends: sixmicesettings (>= 1.02.41), sixmicewallpapers (>= 1.01.19), sixmice-xfce (>= 1.02.41)
+Depends: sixmice-xfce, sysvinit-core, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, sixmicesettings, sixmicewallpapers, lightdm, lightdm-gtk-greeter, xfce4-appfinder, xfce4-battery-plugin, xfce4-clipman, xfce4-clipman-plugin, xfce4-cpufreq-plugin, xfce4-cpugraph-plugin, xfce4-dict, xfce4-diskperf-plugin, xfce4-fsguard-plugin, mousepad, network-manager-gnome, network-manager, thunar, xfce4-genmon-plugin, xfce4-goodies, xfce4-helpers, xfce4-mailwatch-plugin, xfce4-netload-plugin, xfce4-notifyd, xfce4-panel, xfce4-panel-profiles, xfce4-places-plugin, xfce4-power-manager, xfce4-power-manager-plugins, xfce4-pulseaudio-plugin, xfce4-screenshooter, xfce4-sensors-plugin, xfce4-session, xfce4-settings, xfce4-smartbookmark-plugin, xfce4-systemload-plugin, xfce4-taskmanager, xfce4-terminal, xfce4-timer-plugin, xfce4-verve-plugin, xfce4-wavelan-plugin, xfce4-weather-plugin, xfce4-whiskermenu-plugin, xfce4-xkb-plugin, xfconf, xfdesktop4, xfwm4, libxfce4ui-utils, xfburn, ristretto, lightdm-gtk-greeter-settings, mugshot, menulibre, light-locker, thunar, qogir-dark-theme, qogir-icon-theme
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, engrampa, mate-calc, atril
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-xfce-userconfig-1.02.42.2_all.deb
-Size: 7500
-MD5sum: d40369f01917c26c2d2732ebefe6b152
-SHA1: 102d31c27dfa05efb6272699d2bc44faf9c63e81
-SHA256: cd0c89c76000da5b7da9317e7e8b253c251b57c6785a2af7918eba78b8140170
-Priority: important
+Filename: ./sixmice-xfce-userconfig-1.02.43_all.deb
+Size: 7596
+MD5sum: 85e71d40c61c0ffd248ba9178ebdf5be
+SHA1: 7e6dd343e863b51e287fc29fc9227c8a8cf924fb
+SHA256: ca2ba3e131c310de898bc04d3d34c3f237adbfa0cda0ba6a4e587c4022bc59bb
+Priority: standard
 Description: Settings for SixMiceLinux with Xfce.
  This package differs from sixmice-xfce package because
  this package includes script that will apply SixMice configs
@@ -227,90 +312,31 @@ Description: Settings for SixMiceLinux with Xfce.
  its files in /etc/skel.
 
 Package: sixmicesettings
-Version: 1.02.42
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Depends: lsb-release, synaptic, sudo, xinit, xorg, lightdm, lightdm-gtk-greeter, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, pulseaudio, pavucontrol, sysvinit-core, sysv-rc, orphan-sysvinit-scripts, libpam-elogind, elogind, laptop-detect, dialog, sixmicewallpapers
+Installed-Size: 3995
+Depends: lsb-release, synaptic, sudo, xinit, xorg, lightdm, lightdm-gtk-greeter, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, pulseaudio, pavucontrol, sysvinit-core, sysv-rc | openrc, orphan-sysvinit-scripts, libpam-elogind, elogind, laptop-detect, dialog, sixmicewallpapers
 Recommends: qt5ct, qt5-style-plugins, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, appmenu-registrar, bamfdaemon
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmicesettings-1.02.42_all.deb
-Size: 2214624
-MD5sum: b15c58a115f18f654967637a498e768e
-SHA1: c547b5c285f3ef6d07f88cc0e70011c50ca30672
-SHA256: 6c1f2405d5a7ea4e137360bad0946eeed952d955416e4c36f7261e23b7584355
-Priority: important
+Filename: ./sixmicesettings-1.02.43_all.deb
+Size: 2214648
+MD5sum: 6a372296aca0441e14c794489726f39d
+SHA1: 274426847b28afb3c85b2a594e740dd16082df35
+SHA256: 020a698d2cc6d084b3d2f72bc7a19d7f00790d659ad06af5ed374e39c6cd3847
+Priority: required
 Description: Settings for SixMiceLinux.
 
 Package: sixmicewallpapers
-Version: 1.01.19
+Version: 1.02.43
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Filename: ./sixmicewallpapers-1.01.19_all.deb
-Size: 56672640
-MD5sum: b90a004d8d20270376ffc5cda8a542be
-SHA1: 25ee1e77cedba24fb363772b249ea28c6f1a5af4
-SHA256: 1222ed5a27e4684ab12523208e852622d24fae5e7c8d4f347522c4e12cc52dfb
-Priority: optional
+Installed-Size: 58983
+Filename: ./sixmicewallpapers-1.02.43_all.deb
+Size: 56672652
+MD5sum: 25acd24445a5b256e45980a75e5febb2
+SHA1: 26fcda2a026452ba872b11256e301b41cda3ee5e
+SHA256: ca31eea70cb24a6dd125973b222726f2836d9b42ba5986bbf4e3ab541bacdee0
+Priority: required
 Description: Wallpapers for SixMiceLinux.
-
-Package: tela-blue-icon-theme
-Version: 1.02.41.3
-Architecture: all
-Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-orange-icon-theme, tela-green-icon-theme
-Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
-Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-blue-icon-theme-1.02.41.3_all.deb
-Size: 3345908
-MD5sum: 4daa775f8705c56c5814ede6121c03d0
-SHA1: 91ffdfe84429ea1c1b28416b60417226c871694d
-SHA256: 1cc01222939baaf87069189f33d4d13db0c0bf72ed9237f341305e9ef93effde
-Priority: important
-Description: Tela icon theme for desktop environments.
- Additional icons for SixMiceLinux with blue accent.
- Created by Vince Liuice (https://github.com/vinceliuice) and licensed
- under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
-
-Package: tela-green-icon-theme
-Version: 1.02.41.3
-Architecture: all
-Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-blue-icon-theme, tela-orange-icon-theme
-Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
-Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-green-icon-theme-1.02.41.3_all.deb
-Size: 3361560
-MD5sum: a8a08da2b63bba8aa89914d9351d4342
-SHA1: f13096ef7608a4e9eb06af57ff53c3ddc7173c16
-SHA256: 700943ab41c7710b5d1572d6c29599e2d7935c5f4bc8c8426ea475432432e6df
-Priority: important
-Description: Tela icon theme for desktop environments.
- Additional icons for SixMiceLinux with green accent.
- This icon theme was called 'Tela-green' for a long time. But recently,
- it was renamed to 'Tela-manjaro', which is the official name of this icon theme.
- Created by Vince Liuice (https://github.com/vinceliuice) and licensed
- under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
-
-Package: tela-orange-icon-theme
-Version: 1.02.41.3
-Architecture: all
-Maintainer: SixMice <sixmice6@gmail.com>
-Pre-Depends: sixmicesettings (>= 1.02.39), sixmicewallpapers (>= 1.01.19)
-Recommends: qogir-dark-theme, qogir-icon-theme, tela-green-icon-theme, tela-blue-icon-theme
-Suggests: elementary-xfce-icon-theme, bluebird-gtk-theme
-Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./tela-orange-icon-theme-1.02.41.3_all.deb
-Size: 3340116
-MD5sum: 6915844dbc1c8d84f4404a2ef3c0d8a4
-SHA1: 102a7df28d25251961978c67ba4becceb65c31f2
-SHA256: 9cfebda092d872b44970ecbd1f0d71c489cc19f6f8ab81a890e79da5aca6376f
-Priority: important
-Description: Tela icon theme for desktop environments.
- Additional icons for SixMiceLinux with orange accent.
- This icon theme was called 'Tela-orange' for a long time. But recently,
- it was renamed to 'Tela-ubuntu', which is the official name of this icon theme.
- Created by Vince Liuice (https://github.com/vinceliuice) and licensed
- under GNU GPL 3. This package is intended to be used only in SixMiceLinux.
 
