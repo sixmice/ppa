@@ -164,10 +164,10 @@ Depends: calamares, cryptsetup, libglib2.0-bin, keyutils, pkexec, qml-module-qtq
 Conflicts: calamares-settings-debian
 Provides: calamares-settings
 Filename: ./sixmice-calamares-settings-1.03.44_amd64.deb
-Size: 5244576
-MD5sum: 9572bb20ca948506d6a2b98becb7913d
-SHA1: 2beab0b17fde5c2619a85e131c32457b9f9896d8
-SHA256: b748b37f82181bcbca7fee7fa82c86fa37134ac265867fc965b6c61876bac539
+Size: 5244508
+MD5sum: 05a9fd582b6b8578e6361bfd7104d407
+SHA1: b2fc870755b7ce1b8b24d1c328ae3b779da34afb
+SHA256: 53731acd63deb9f7a08894ee7af871b799d8cd889d8c6cdbecebe4f4ec766fde
 Section: utils
 Priority: optional
 Description: SixMiceLinux settings for the Calamares Installer.
@@ -187,14 +187,14 @@ Maintainer: SixMice <sixmice6@gmail.com>
 Installed-Size: 168
 Pre-Depends: sixmicesettings (>= 1.02.42), sixmicewallpapers (>= 1.01.19)
 Depends: sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, lxsession-default-apps
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, qogir-dark-theme, qogir-icon-theme, numix-gtk-theme, xfce4-power-manager
-Suggests: atril, smplayer, timidity
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, xfce4-power-manager
+Suggests: atril, smplayer, timidity, numix-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
 Filename: ./sixmice-lxde-1.03.44_all.deb
-Size: 12872
-MD5sum: 2c6b9ec498e73af8254290a2dd2fd562
-SHA1: e32b491159846124fcdd28eb13a62d4ea9d0af69
-SHA256: 63c0963cab3da8e0d4a9ab206c12c9807e32b32a957860a6d11d349172f75431
+Size: 12860
+MD5sum: 2f26ba0e6ee112fb8b93e3c546308cbf
+SHA1: 8f0a13026bdb6dc7a91a57eac6f0bf81b5da400b
+SHA256: 71104e6a70cc881513bddb6b9d7c83e325a1917024d046d2d293703e1e4ed055
 Priority: standard
 Description: Settings for SixMiceLinux with LXDE.
  This package applies SixMice configs only in /etc/skel
@@ -208,16 +208,16 @@ Version: 1.03.44
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Installed-Size: 168
-Pre-Depends: sixmicesettings (>= 1.02.42), sixmicewallpapers (>= 1.01.19), sixmice-lxde (>= 1.02.40)
+Pre-Depends: sixmicesettings (>= 1.02.42), sixmicewallpapers (>= 1.01.19), sixmice-lxde (>= 1.02.42)
 Depends: sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, lxsession-default-apps
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, qogir-dark-theme, qogir-icon-theme, numix-gtk-theme, xfce4-power-manager, timidity
-Suggests: atril, smplayer
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, xfce4-power-manager, timidity
+Suggests: atril, smplayer, timidity, numix-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
 Filename: ./sixmice-lxde-userconfig-1.03.44_all.deb
-Size: 13664
-MD5sum: 780bffe4879793d4515e97bdec5d9ea3
-SHA1: 49b93d8498043fd97193e2c675fd3199ea90923d
-SHA256: 55b6370e540b4d86f05ff81cb5ec3e653f36a19c4d271c3f2763192f127ad065
+Size: 13652
+MD5sum: 0142ad8681ee31babe8eb22ef62355f5
+SHA1: 3fa56d9153d518074a3559027517e1593e54b7b5
+SHA256: 29bfe7a41e1a2ee6e7a518f54e66d23a1902cbb00ea25363fcdaaa8612370291
 Priority: standard
 Description: Settings for SixMiceLinux with LXDE.
  This package differs from sixmice-lxde package because
