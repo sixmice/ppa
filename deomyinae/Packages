@@ -1,3 +1,56 @@
+Package: live-config-runit
+Source: live-config-sixmice
+Version: 1.03.44
+Architecture: all
+Maintainer: SixMice <sixmice6@gmail.com>
+Installed-Size: 26
+Depends: runit-init, sysv-rc | openrc, runit-helper, runit
+Conflicts: live-config-backend, live-config-sysvinit
+Replaces: live-config-backend, live-config-sysvinit
+Provides: live-config-backend, live-config-sysvinit
+Filename: ./live-config-runit-1.03.44_all.deb
+Size: 2916
+MD5sum: e50214e0c1cefee51f44b2c8d8e2dc87
+SHA1: 62b81bbfc270501583f65ccfb8aff1cc86905a28
+SHA256: 26e4605951c3337dd5801215cce0195004d05ac03ff6c0d2d05a1e5e5e44f66e
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components (runit backend)
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ This package contains the runit backend.
+
+Package: live-config-sixmice
+Version: 1.03.44
+Architecture: all
+Maintainer: Debian Live Maintainers <debian-live@lists.debian.org>
+Installed-Size: 116
+Depends: live-config-systemd | live-config-backend | live-config-runit
+Recommends: iproute2 | iproute, keyboard-configuration, live-config-doc, live-tools, locales | locales-all, sudo, user-setup
+Suggests: pciutils, wget
+Filename: ./live-config-sixmice-1.03.44_all.deb
+Size: 16268
+MD5sum: 2cce986689eeeda575fdb7a7f0b09daf
+SHA1: 7098c7c539f5bcd723d067f6912767cde5fb4713
+SHA256: 1026ea0245d4a39af287fa1ac9a6900f191054b04f6d49a848664952bbadf16c
+Section: misc
+Priority: optional
+Homepage: https://salsa.debian.org/live-team/live-config
+Description: Live System Configuration Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-config contains the components to configure a live system during the boot
+ process (late userspace).
+ .
+ In addition to live-config, a backend for an init system is required, such as
+ live-config-systemd.
+
 Package: matcha-gtk-theme
 Version: 1.02.43
 Architecture: all
