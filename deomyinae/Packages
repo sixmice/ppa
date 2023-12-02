@@ -218,9 +218,9 @@ Conflicts: calamares-settings-debian
 Provides: calamares-settings
 Filename: ./sixmice-calamares-settings-1.03.44_amd64.deb
 Size: 5244508
-MD5sum: 05a9fd582b6b8578e6361bfd7104d407
-SHA1: b2fc870755b7ce1b8b24d1c328ae3b779da34afb
-SHA256: 53731acd63deb9f7a08894ee7af871b799d8cd889d8c6cdbecebe4f4ec766fde
+MD5sum: 765f39067ad19f61cf15dab21b5c2b09
+SHA1: fe61c0d95ac524d1f6c44f08759c405dd0bc5379
+SHA256: d41e2aac820cae02dba704925d32fe00dba10b34453c170f3dc3215f819cf484
 Section: utils
 Priority: optional
 Description: SixMiceLinux settings for the Calamares Installer.
