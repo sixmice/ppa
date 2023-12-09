@@ -373,10 +373,10 @@ Depends: lsb-release, synaptic, sudo, xinit, xorg, lightdm, lightdm-gtk-greeter,
 Recommends: qt5ct, qt5-style-plugins, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, appmenu-registrar, bamfdaemon
 Conflicts: systemd, libpam-systemd, systemd-sysv
 Filename: ./sixmicesettings-1.03.44.1_all.deb
-Size: 2214152
-MD5sum: 6f7d55080914a791fa8e27ea4564ec5d
-SHA1: 5a2790069292b5e216e57791aefcdf29dd64bdb5
-SHA256: e88efee34841e747f19f49c8b67a0ad1bcca69d165ca1b7a8a774b5af7724410
+Size: 2214160
+MD5sum: cfdf24ee4b62513e377e80129948ce85
+SHA1: 87707028ee633bf6c4aeb1bc627cb8b01a352418
+SHA256: 55ca2bfda68830a72ed5698d14a2146b1c64df4bb793da4e88050900b358fa44
 Priority: required
 Description: Settings for SixMiceLinux.
 
