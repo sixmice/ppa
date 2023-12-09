@@ -374,9 +374,9 @@ Recommends: qt5ct, qt5-style-plugins, appmenu-gtk-module-common, appmenu-gtk2-mo
 Conflicts: systemd, libpam-systemd, systemd-sysv
 Filename: ./sixmicesettings-1.03.44.1_all.deb
 Size: 2214160
-MD5sum: cfdf24ee4b62513e377e80129948ce85
-SHA1: 87707028ee633bf6c4aeb1bc627cb8b01a352418
-SHA256: 55ca2bfda68830a72ed5698d14a2146b1c64df4bb793da4e88050900b358fa44
+MD5sum: 161f9996ec81efa5e0ad27d48bcc7764
+SHA1: 9da42ddc3bd1b85128fe6e329d4e3347a017c877
+SHA256: 632c66c0724aaf8265a2c20e7bd33480e14e142aa76774ee248cc0c64dc8a917
 Priority: required
 Description: Settings for SixMiceLinux.
 
