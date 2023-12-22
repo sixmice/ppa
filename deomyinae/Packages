@@ -369,14 +369,14 @@ Version: 1.03.45
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
 Installed-Size: 3764
-Depends: lsb-release, synaptic, sudo, xinit, xorg, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, laptop-detect, dialog, sixmicewallpapers
-Recommends: qt5ct, qt5-style-plugins, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, appmenu-registrar, bamfdaemon
+Depends: lsb-release, synaptic, sudo, xinit, xorg, fonts-noto-ui-core, fonts-noto-core, fonts-nanum, dmz-cursor-theme, unzip, unrar-free, ntfs-3g, avahi-daemon, avahi-utils, gvfs, mtools, floppyd, dosfstools, alsa-utils, sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, laptop-detect, dialog
+Recommends: qt5ct, qt5-style-plugins, appmenu-gtk-module-common, appmenu-gtk2-module, appmenu-gtk3-module, appmenu-registrar, bamfdaemon, sixmicewallpapers
 Conflicts: systemd, libpam-systemd, systemd-sysv
 Filename: ./sixmicesettings-1.03.45_all.deb
 Size: 2214136
-MD5sum: eb6430ffe3fb5d714687c568c9077e6b
-SHA1: 5e59eebe60169976387fa95d1a61e6039a370e25
-SHA256: 5dd26cb9cb152c94f34f55b4b0227d74dce651186b62e86cb4a29b93115f0be0
+MD5sum: 9d18521c127a374ead394246a6e29b67
+SHA1: bfb1a43b0eecdbc8b237fc82cea51aaaabd61386
+SHA256: 99421133b8438e703226b072a5ae01cb1bc43e82c7bab096ba1b7e1cd2c41a3b
 Priority: required
 Description: Settings for SixMiceLinux.
 
