@@ -234,20 +234,20 @@ Description: SixMiceLinux settings for the Calamares Installer.
  calamares-settings packages.
 
 Package: sixmice-lxde
-Version: 1.03.44
+Version: 1.03.45
 Architecture: all
 Maintainer: SixMice <sixmice6@gmail.com>
-Installed-Size: 168
+Installed-Size: 192
 Pre-Depends: sixmicesettings (>= 1.02.42), sixmicewallpapers (>= 1.01.19)
-Depends: sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, xfce4-screenshooter, lxrandr, lxterminal, obconf, lxsession-default-apps
-Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, xfce4-power-manager
+Depends: sysvinit-core | runit-init, orphan-sysvinit-scripts | runit-helper, sysv-rc | openrc, libpam-elogind, elogind, orphan-sysvinit-scripts, lsb-release, synaptic, sudo, lxappearance, lxpanel, lxtask, lxsession-logout, openbox, light-locker, lxhotkey-gtk, lxinput, network-manager, network-manager-gnome, pcmanfm, lxde-core, lxsession, lxpolkit, lxde-common, lxde-settings-daemon, lxlauncher, ffmpegthumbnailer, menu, picom, lxrandr, lxterminal, obconf, lxsession-default-apps
+Recommends: qt5ct, qt5-style-plugins, bleachbit, gdebi, gpicview, mousepad, mate-calc, xarchiver, xfce4-power-manager, xfce4-screenshooter
 Suggests: atril, smplayer, timidity, numix-gtk-theme
 Conflicts: systemd, libpam-systemd, systemd-sysv
-Filename: ./sixmice-lxde-1.03.44_all.deb
-Size: 12860
-MD5sum: 2f26ba0e6ee112fb8b93e3c546308cbf
-SHA1: 8f0a13026bdb6dc7a91a57eac6f0bf81b5da400b
-SHA256: 71104e6a70cc881513bddb6b9d7c83e325a1917024d046d2d293703e1e4ed055
+Filename: ./sixmice-lxde-1.03.45_all.deb
+Size: 12868
+MD5sum: 55cb33827150258d0f63e372a9c88a69
+SHA1: 4e27a843bb2e0d3a5f460c50181085f2ecdb2afc
+SHA256: afd0e686d30f905bd4695db207f2f39ccce94813f6f432aa76e80537af9f2208
 Priority: standard
 Description: Settings for SixMiceLinux with LXDE.
  This package applies SixMice configs only in /etc/skel
